@@ -7,4 +7,4 @@ fi
 jekyll new contino;
 sleep 5
 cd contino/
-nohup bundle exec jekyll  serve --host=0.0.0.0 &
+nohup sudo bundle exec jekyll  serve --host=0.0.0.0 &
