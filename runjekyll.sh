@@ -3,8 +3,8 @@ ls contino
 if [ $? -eq 0 ] 
 then
 sudo rm -Rf contino;
-else echo "does not exit";
+else echo "does not exist";
 fi
 sudo jekyll new contino
-sudo cd contino/
-sudo nohup bundle exec jekyll serve --host=0.0.0.0 &
+cd contino/
+nohup sudo bundle exec jekyll serve --host=0.0.0.0 &
