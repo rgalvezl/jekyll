@@ -7,4 +7,4 @@ else echo "does not exist";
 fi
 sudo jekyll new contino
 cd contino/
-nohup sudo bundle exec jekyll serve --host=0.0.0.0 &
+sudo bundle exec jekyll serve --host=0.0.0.0  > /dev/null 2>&1 &
